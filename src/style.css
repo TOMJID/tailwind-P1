@@ -49,7 +49,7 @@ html {
 
 .custom-shape-divider-bottom-1745907569 {
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -64,7 +64,7 @@ html {
 }
 
 .custom-shape-divider-bottom-1745907569 .shape-fill {
-  fill: #ffffff;
+  fill: #fff;
 }
 
 .slide-in-left {

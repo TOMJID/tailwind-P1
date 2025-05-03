@@ -12,37 +12,69 @@
     <title>Finexo</title>
   </head>
   <body class="font-montserrat overflow-x-hidden">
-    <nav id="navbar" class="bg-main text-white">
+    <nav class="bg-main text-white">
       <div
-        class="container mx-auto flex items-center justify-between px-2 py-4 text-white md:px-6 md:py-5"
+        class="container mx-auto flex items-center justify-between px-4 py-4"
       >
-        <a class="text-2xl font-bold" href="index.html">Finexo</a>
-        <ul class="hidden gap-x-6 uppercase lg:flex">
-          <li><a class="" href="index.html">Home</a></li>
-          <li>
-            <a class="" href="about.html">About</a>
-          </li>
-          <li><a class="" href="service.html">Services</a></li>
-          <li>
-            <a class="text-secondary font-semibold" href="why.html">Why Us</a>
-          </li>
-          <li>
-            <a href="team.html"> Team </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bx bx-user"></i>
-              Login</a
-            >
-          </li>
-          <li>
-            <i class="bx bx-search-alt-2"></i>
-          </li>
-        </ul>
-
-        <div class="lg:hidden">
-          <i class="bx bx-menu inline-flex text-3xl"></i>
+        <a href="index.html" class="text-2xl lg:text-4xl font-bold">Finexo</a>
+        <div class="hidden space-x-6 font-semibold text-xl lg:flex">
+          <a href="index.html" class="hover:text-secondary">Home</a>
+          <a href="about.html" class="hover:text-secondary">About</a>
+          <a href="service.html" class="hover:text-secondary">Services</a>
+          <a href="why.html" class="text-secondary hover:text-secondary">Why Us</a>
+          <a href="team.html" class="hover:text-secondary">Team</a>
+          <a href="#" class="hover:text-secondary flex items-center">
+            <i class="bx bx-user mr-1"></i> Login
+          </a>
+          <a href="#" class="hover:text-secondary flex items-center">
+            <i class="bx bx-search"></i>
+          </a>
         </div>
+        <button id="menu-toggle" class="text-3xl lg:hidden">
+          <i class="bx bx-menu"></i>
+        </button>
+      </div>
+      <div
+        id="mobile-menu"
+        class="bg-main hidden -translate-y-full transform text-center text-xl font-semibold text-white transition-all duration-[600] lg:hidden"
+      >
+        <a
+          href="index.html"
+          class="hover:bg-accent-2  block px-4 py-2 transition-all "
+          >Home</a
+        >
+        <a
+          href="about.html"
+          class="hover:bg-accent-2 block px-4 py-2 transition-all"
+          >About</a
+        >
+        <a
+          href="service.html"
+          class="hover:bg-accent-2 block px-4 py-2 transition-all"
+          >Services</a
+        >
+        <a
+          href="why.html"
+          class="hover:bg-accent-2 text-secondary hover:text-white block px-4 py-2 transition-all"
+          >Why Us</a
+        >
+        <a
+          href="team.html"
+          class="hover:bg-accent-2  block px-4 py-2 transition-all"
+          >Team</a
+        >
+        <a
+          href="#"
+          class="hover:bg-accent-2 flex items-center justify-center px-4 py-2"
+        >
+          <i class="bx bx-user mr-1"></i> Login
+        </a>
+        <a
+          href="#"
+          class="hover:bg-accent-2 flex items-center justify-center px-4 py-2"
+        >
+          <i class="bx bx-search"></i>
+        </a>
       </div>
     </nav>
 
